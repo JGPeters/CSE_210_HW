@@ -7,7 +7,7 @@ class Program
         Journal journal = new Journal();
         string GetChoice()
         {
-            Console.Write("What would you like to do?\n1.Add entry\n2.Display entries\n3.Save\n4.Load\n5.Quit\n> ");
+            Console.Write("\nWhat would you like to do?\n1.Add entry\n2.Display entries\n3.Save\n4.Load\n5.Quit\n> ");
             string choice = Console.ReadLine();
             return choice;
         }
