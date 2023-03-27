@@ -39,6 +39,6 @@ class Program
         
         Menu();
         
-        //To show creativity I made it so you cant get a repaeted prompt or question in the reflection and listing activities until you have gone through them all.
+        //To show creativity I made it so you cant get a repeated prompt or question in the reflection and listing activities until you have gone through them all.
     }
 }
