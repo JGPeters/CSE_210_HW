@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello FinalProject World!");
+        TaskList taskList = new TaskList();
+        TaskManager manager = new TaskManager();
+        TaskReporter reporter = new TaskReporter();
+        manager.DisplayMenu();
     }
 }

@@ -169,3 +169,4 @@ class Program
         Menu();
     }
 }
+//To show creativity I added a level up system and organized the goals every time I display them. 
