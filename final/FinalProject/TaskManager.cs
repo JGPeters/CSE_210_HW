@@ -37,10 +37,13 @@ public class TaskManager
             break;
     }
   }  
-  public void AddTask(TaskList list)
+  public void AddTask(TaskList list, Task task)
   {
 
-    if(!TaskAdded(list))
+    if(TaskAdded(list, task) == false)
+    {
+        
+    }
   }
 
   private bool TaskAdded(TaskList list, Task task)
