@@ -1,24 +1,20 @@
 public class Task
 {
-    private int _taskID;
+
     private string _taskName;
     private string _description;
     private DateOnly _dueDate;
     private bool _complete;
 
-    public Task(int ID, string name, string description, DateOnly dueDate)
+    public Task(string name, string description, DateOnly dueDate)
     {
-        _taskID = ID;
+
         _taskName = name;
         _description = description;
         _dueDate = dueDate;
         _complete = false;
     }
 
-    public int GetID()
-    {
-        return _taskID;
-    }
     public string GetName()
     {
         return _taskName;
@@ -38,6 +34,11 @@ public class Task
     public void Complete()
     {
         _complete = true;
+    }
+
+    public void UnComplete()
+    {
+        _complete = false;
     }
 
     public virtual void DisplayTask()
